@@ -1,0 +1,485 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainpage{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://cafeu.codebasket.net/assets/img/page-ban-bg.png');
+    background-size: cover;
+}
+.navbar{
+    width: 80%;
+    background-color: white;
+    height: 61px;
+    margin-top: 40px;
+    margin-left: 131px;
+    display: flex;
+    float: left;
+}
+.navlogo{
+    width: 20%;   
+}
+.navlogo img{
+    padding-top: 8px;
+    padding-left: 16px;
+}
+
+.hedermenu{
+    width: 70%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #292929;  
+}
+.headerul{
+    display: flex;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 115px;
+}
+.headerli{
+    padding-left: 42px;
+}
+.navicon{
+    width: 20%;
+   text-align: right;
+   padding-right: 20px;
+}
+.liicon1{
+    font-size: 22px;
+    padding-top: 19px;
+    padding-left: 10px;
+   
+}
+.liicon1:hover{
+    color: #cc3333;
+}
+.maintitle{
+   
+    width: 100%;
+    height: 339px;
+}
+.maintitle h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 39px;
+    padding-top: 216px;
+    padding-left: 553px;
+    color: white;
+}
+.maintitle p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left:590px;
+    color: white;
+}
+/* ---------------------------------------------------------------------------------- */
+.display1{
+    width: 100%;
+    height: 700pxpx;
+    /* display: flex; */
+}
+.title{
+    margin-top: 70px;
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+}
+.title h3{
+    font-family: 'Lobster', cursive;
+    color:  #cc3333;
+    font-size: 25px;
+    text-align: center;
+}
+.title h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.maincard{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    float: left;
+}
+.card1{
+    width: 20%;
+    height:338px;
+    box-shadow: 0px 5px 20px 1px #00000029;
+    margin-left: 91px;
+}
+.card1 img{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.card1 h3{
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.card1 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    color: #666666;
+    text-align: center;
+}
+.icon1{
+    margin-left: 73px;
+    text-align: center;
+    margin-top: 20px;
+    border: solid #666666;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+}
+.icon1:hover{
+    background-color: #cc3333;
+    color: white;
+}
+.icon2:hover{
+    background-color: #cc3333;
+    color: white;
+}
+.icon3:hover{
+    background-color: #cc3333;
+    color: white;
+}
+.icon2{
+    text-align: center;
+    margin-top: 20px;
+    border: solid #666666;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+.icon3{
+    text-align: center;
+    margin-top: 20px;
+    border: solid #666666;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.card2{
+    width: 20%;
+    height: 338px;
+    box-shadow: 0px 5px 20px 1px #00000029;
+    margin-left: 20px;
+}
+.card2 img{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.card2 h3{
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.card2 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    color: #666666;
+    text-align: center;
+}
+.card3{
+    width: 20%;
+    height: 338px;
+    box-shadow: 0px 5px 20px 1px #00000029;
+    margin-left: 20px;
+}
+.card3 img{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.card3 h3{
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.card3 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    color: #666666;
+    text-align: center;
+}
+.card4{
+    width: 20%;
+    height: 338px;
+    box-shadow: 0px 5px 20px 1px #00000029;
+    margin-left: 20px;
+}
+.card4 img{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.card4 h3{
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.card4 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    color: #666666;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://cafeu.codebasket.net/assets/img/footer-bg.png');
+    background-size: cover;
+    display: flex;
+    float: left;
+   margin-bottom: 5px;
+}
+.footercard1{
+    width: 25%;
+    height: 396px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.logoinfo{
+    width: 100%;
+    height: 125px;
+    
+}
+.logoinfo p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+.seticoninfo{
+    width: 100%;
+    height:253px;
+}
+.footeraddress{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;  
+      padding-top:17px;
+}
+.footeraddress1{
+    float: right;
+   display: flex;
+}
+.icon11{
+    font-size: 35PX;
+    padding-top: 20px;
+    color: white;
+}
+.footeraddress1 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.footermail{
+   width: 100%;
+   height: 77px;
+   display: flex;
+   float: left;
+}
+.footermail1{
+    float: right;
+   
+}
+.icon22{
+    font-size: 35PX;
+    padding-top: 20px;
+    color: white;
+}
+.footermail1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    text-align: left;
+    padding-left:27px;
+    padding-top: 15px;
+
+}
+.footernumber{
+    width: 100%;
+    height: 77px;
+    display: flex;
+    float: left;
+ }
+ .footerno{
+     float: right;
+    
+ }
+ .icon33{
+     font-size: 35PX;
+     padding-top: 20px;
+     color: white;
+ }
+ .footerno p{
+     font-family: 'Roboto', sans-serif;
+     font-size: 15px;
+     line-height: 27px;
+     color: white;
+     text-align: left;
+     padding-left:27px;
+     padding-top: 15px;
+ 
+ }
+.footercard2{
+    width: 15%;
+    height: 396px;
+    float: left;
+    margin-top: 100px;
+}
+.footercard2 h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footerul{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.footerli{
+    padding-top: 15px;
+}
+.footerli:hover{
+    color: #cc3333;
+}
+.footercard3{
+    width: 23%;
+    height: 396px;
+    float: left;
+    margin-top: 100px;
+}
+.footercard3 h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+.f_ul1{
+    list-style: none;
+    display: flex;
+    float: left;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.f_imgli{
+    padding-left: 10px;
+}
+.f_ul2{
+    list-style: none;
+    display: flex;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.footercard4{
+    width: 25%;
+    height:396px;
+    float: left;
+    margin-top: 100px;
+}
+.footercard4 h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px; 
+} 
+
+.footercard4 p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 23px;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+.footercard4 input{
+    margin-top: 30px;
+    display: flex;
+    float: left;
+    width: 183px;
+    height: 37px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.footercard4 button{
+    width: 100px;
+    height: 37px;
+    float: right;
+    background-color: #cc3333;
+    margin-top: 30px;
+    margin-right: 27px;
+    color: white;
+    border: none;
+
+}
+.footercard4 button:hover{
+    background-color: #666666;
+}
+.f_icon{
+    font-size: 20px;
+}
+.footericon{
+    display: flex;
+    float: left;
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+}
+.f_i{
+    padding-left: 10px;
+}
+.f_i:hover{
+    color: #cc3333;
+}
+.lastfooter{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-image: url('https://cafeu.codebasket.net/assets/img/footer-bg.png');
+    background-size: cover;
+}
+.lastfooter p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 523px;
+} 
